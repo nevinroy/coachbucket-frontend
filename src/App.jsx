@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://api.coachbucket.com";
 
 function Modal({ open, onClose, title, children }) {
   if (!open) return null;
